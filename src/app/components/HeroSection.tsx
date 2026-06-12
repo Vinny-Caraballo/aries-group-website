@@ -141,7 +141,7 @@ export function HeroSection() {
 
             <motion.img
               src={robotArm}
-              alt="A.R.I.E.S. robotic arm unit"
+              alt="MINOS — A.R.I.E.S. robotic arm"
               className="relative z-10 w-full max-w-sm lg:max-w-md drop-shadow-2xl"
               style={{ filter: "drop-shadow(0 0 40px rgba(255,94,14,0.15))" }}
               animate={{ y: [0, -12, 0] }}
@@ -156,7 +156,7 @@ export function HeroSection() {
               className="absolute bottom-4 right-4 px-4 py-2.5 rounded-sm border border-[#FF5E0E]/30 bg-[#0a0b10]/90 backdrop-blur-sm"
             >
               <div style={{ fontFamily: "'Space Mono', monospace" }} className="text-[#FF5E0E] text-xs tracking-widest uppercase">
-                A.R.I.E.S. Unit 01
+                MINOS
               </div>
               <div style={{ fontFamily: "'Inter', sans-serif" }} className="text-white/40 text-xs mt-0.5">
                 6-DOF Modular Robotic Arm

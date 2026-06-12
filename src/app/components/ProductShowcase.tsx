@@ -11,12 +11,12 @@ import imgReductor from "../../imports/Reductor_Peque_o_Explotado_Isom_trico.PNG
 const modules = [
   {
     id: "joint-a",
-    label: "Harmonic Drive Joint",
-    sublabel: "Exploded isometric — gear reducer assembly",
+    label: "NOMOS — Harmonic Drive Reducer",
+    sublabel: "Exploded isometric — NOMOS gear reducer assembly",
     img: imgReductor,
     bg: "#ffffff",
     textColor: "#111",
-    desc: "The core transmission element: a custom harmonic drive reducer achieving high torque-to-weight ratio from 3D-printed parts and standard bearings.",
+    desc: "NOMOS is the core transmission element of MINOS: a custom harmonic drive reducer achieving high torque-to-weight ratio from 3D-printed parts and standard bearings.",
   },
   {
     id: "joint-b",
@@ -107,15 +107,15 @@ export function ProductShowcase() {
             style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "clamp(1.8rem, 4vw, 2.8rem)", lineHeight: 1.15 }}
             className="text-white max-w-2xl mb-3"
           >
-            Every joint is a modular, printable precision actuator
+            MINOS — every joint a modular, printable precision actuator
           </h2>
           <p
             style={{ fontFamily: "'Inter', sans-serif", lineHeight: 1.7, fontSize: "1rem" }}
             className="text-white/50 max-w-xl"
           >
-            Each A.R.I.E.S. joint is independently designed, open-sourced, and
-            field-replaceable — built around a harmonic drive transmission that
-            delivers industrial-grade precision from 3D-printed parts.
+            MINOS is built around NOMOS — a custom harmonic drive reducer. Every
+            joint is independently designed, open-sourced, and field-replaceable,
+            delivering industrial-grade precision from 3D-printed parts.
           </p>
         </motion.div>
 
