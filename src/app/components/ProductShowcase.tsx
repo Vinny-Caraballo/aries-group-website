@@ -36,7 +36,7 @@ const products = [
       "A fully 3D-printable 7-degree-of-freedom robotic arm built for precision automation in small business environments. Every structural component is printable in-house; assembly uses off-the-shelf fasteners and bearings.",
     specs: [
       "7 degrees of freedom",
-      "NOMOS harmonic drive at each joint",
+      "NOMOS cycloidal reducer at each joint",
       "Fully open hardware BOM",
       "Blender-native programming via ARIES add-on",
       "Scalable from desktop prototype to workshop cell",
@@ -45,17 +45,17 @@ const products = [
   {
     id: "nomos",
     name: "NOMOS",
-    tag: "225:1 Harmonic Drive Reducer",
+    tag: "225:1 Multiplicative Cycloidal Reducer",
     color: "#00D4FF",
     mainImg: nomosMain,
     imgBg: "#f8f8f8",
     gallery: [nomos1, nomos2, nomos3, nomos4],
     description:
-      "A high-ratio harmonic drive gear reducer engineered for zero-backlash torque transmission. Designed from the ground up to be 3D-printable in PETG or Nylon, NOMOS is the precision backbone of each MINOS joint.",
+      "A two-chamber multiplicative cycloidal transmission achieving 225:1 reduction with near-zero backlash. Both cycloidal stages are fully 3D-printable in PETG or Nylon — NOMOS is the precision backbone of every MINOS joint.",
     specs: [
-      "225:1 gear ratio",
-      "Zero-backlash harmonic transmission",
-      "3D-printable flexspline & wave generator",
+      "225:1 gear ratio — two multiplicative cycloidal stages",
+      "Near-zero backlash cycloidal transmission",
+      "3D-printable cycloidal discs & eccentric input shaft",
       "Crossed-roller output bearing",
       "Standard joint interface — hot-swappable",
     ],
@@ -63,13 +63,13 @@ const products = [
   {
     id: "nimios",
     name: "NIMIOS",
-    tag: "100:1 Compact Reducer",
+    tag: "100:1 Compact Cycloidal Reducer",
     color: "#A855F7",
     mainImg: nimiosMain,
     imgBg: "#ffffff",
     gallery: [nimios1, nimios2, nimios3],
     description:
-      "A compact 100:1 harmonic drive reducer for lighter-duty axes and end-effector positions. Same standard interface as NOMOS, significantly reduced footprint — ideal for wrist and tool-mount joints.",
+      "A compact two-chamber multiplicative cycloidal transmission at 100:1 reduction. Shares the same output interface standard as NOMOS with a significantly reduced footprint — purpose-built for wrist and tool-mount joints.",
     specs: [
       "100:1 gear ratio",
       "Compact wrist-optimized form factor",

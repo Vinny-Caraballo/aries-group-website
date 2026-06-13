@@ -16,10 +16,10 @@ const pillars = [
     image: explodedView,
     imageBg: "bg-[#111218]",
     description:
-      "Fully functional 6-DOF robotic arm units designed from the ground up to be 3D-printed in-house, assembled with off-the-shelf components, and customized to your production needs. From individual joint modules to complete machining cells — built to be replicated, not just purchased.",
+      "Fully functional 7-DOF robotic arm units designed from the ground up to be 3D-printed in-house, assembled with off-the-shelf components, and customized to your production needs. From individual joint modules to complete machining cells — built to be replicated, not just purchased.",
     features: [
       "Printable structural components & housings",
-      "Modular harmonic drive actuator joints",
+      "Modular cycloidal actuator joints",
       "Scalable from desktop prototype to workshop",
       "Open hardware specifications & BOM",
     ],
