@@ -7,7 +7,7 @@ const navLinks = [
   { label: "Units", href: "#units" },
   { label: "Program", href: "#program" },
   { label: "Service", href: "#service" },
-  { label: "Mission", href: "#mission" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export function Navbar() {

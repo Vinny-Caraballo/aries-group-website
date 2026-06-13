@@ -147,7 +147,7 @@ export function HeroSection() {
                 MINOS
               </div>
               <div style={{ fontFamily: "'Inter', sans-serif" }} className="text-white/40 text-xs mt-0.5">
-                6-DOF Modular Robotic Arm
+                7-DOF Modular Robotic Arm
               </div>
             </motion.div>
           </motion.div>
