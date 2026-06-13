@@ -334,7 +334,7 @@ export function EcosystemSection() {
   const tab = tabs.find(t => t.id === active)!;
 
   return (
-    <section id="program-detail" ref={ref} className="bg-[#0a0b10] py-28 px-6 relative overflow-hidden">
+    <section id="program" ref={ref} className="bg-[#0a0b10] py-28 px-6 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/8 to-transparent" />
 
       <div className="max-w-7xl mx-auto">
@@ -348,7 +348,7 @@ export function EcosystemSection() {
           <div className="flex items-center gap-2 mb-4">
             <div className="h-px w-8 bg-[#FF5E0E]" />
             <span style={{ fontFamily: "'Space Mono', monospace" }} className="text-[#FF5E0E] text-xs tracking-[0.2em] uppercase">
-              The Program
+              02 — Program
             </span>
           </div>
           <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "clamp(1.8rem, 4vw, 2.8rem)", lineHeight: 1.15 }} className="text-white max-w-2xl mb-3">

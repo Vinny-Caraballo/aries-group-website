@@ -96,7 +96,7 @@ export function ProductShowcase() {
   };
 
   return (
-    <section ref={ref} id="units-detail" className="bg-[#0d0e14] py-28 px-6 relative overflow-hidden">
+    <section ref={ref} id="units" className="bg-[#0d0e14] py-28 px-6 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/8 to-transparent" />
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/8 to-transparent" />
 
@@ -111,7 +111,7 @@ export function ProductShowcase() {
           <div className="flex items-center gap-2 mb-4">
             <div className="h-px w-8 bg-[#FF5E0E]" />
             <span style={{ fontFamily: "'Space Mono', monospace" }} className="text-[#FF5E0E] text-xs tracking-[0.2em] uppercase">
-              Product Line
+              01 — Units
             </span>
           </div>
           <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: "clamp(1.8rem, 4vw, 2.8rem)", lineHeight: 1.15 }} className="text-white max-w-2xl mb-3">
