@@ -10,6 +10,14 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Sends form data to the configured email via mailto.
+    // When a custom project email is ready, replace this with EmailJS or Formspree.
+    const TARGET_EMAIL = "vincenzo.caraballo@gmail.com";
+    const subject = encodeURIComponent(`ARIES Early Access — ${form.type || "General"}`);
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\nInterest: ${form.type}\n\n${form.message}`
+    );
+    window.open(`mailto:${TARGET_EMAIL}?subject=${subject}&body=${body}`, "_blank");
     setSubmitted(true);
   };
 

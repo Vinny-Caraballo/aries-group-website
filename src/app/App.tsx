@@ -4,6 +4,7 @@ import { ProblemSection } from "./components/ProblemSection";
 import { PillarsSection } from "./components/PillarsSection";
 import { ProductShowcase } from "./components/ProductShowcase";
 import { EcosystemSection } from "./components/EcosystemSection";
+import { ServiceSection } from "./components/ServiceSection";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 
@@ -16,6 +17,7 @@ export default function App() {
       <PillarsSection />
       <ProductShowcase />
       <EcosystemSection />
+      <ServiceSection />
       <ContactSection />
       <Footer />
     </div>

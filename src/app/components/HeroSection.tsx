@@ -83,7 +83,7 @@ export function HeroSection() {
                 className="group flex items-center gap-2 px-7 py-3.5 bg-[#FF5E0E] hover:bg-[#e54d00] text-white transition-all duration-200 rounded-sm"
                 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600 }}
               >
-                Explore the Platform
+                Explore the Solution
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </button>
               <button
