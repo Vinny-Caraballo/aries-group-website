@@ -33,16 +33,16 @@ const products = [
     imgBg: "#111218",
     gallery: [minos1, minos2, minos3, minos4, minos5],
     description:
-      "A 7-degree-of-freedom robotic arm with structural components printed in Stron4000 industrial resin (FormLabs), hybridized with tool-steel fasteners and precision bearings. Designed for precision automation in small business environments — every part reproducible in-house.",
+      "A 7-degree-of-freedom robotic arm with structural components printed in Nylon 11 CF Powder (FormLabs SLS), hybridized with tool-steel fasteners and precision bearings. Designed for precision automation in small business environments — every part reproducible in-house.",
     highlights: [
       { value: "7", label: "Degrees of Freedom" },
-      { value: "Stron4000", label: "FormLabs Resin" },
+      { value: "Nylon 11 CF", label: "FormLabs Resin" },
       { value: "Open", label: "Hardware License" },
     ],
     specs: [
       "7 degrees of freedom",
       "NOMOS cycloidal reducer at each joint",
-      "Stron4000 resin structural body (FormLabs SLA)",
+      "Nylon 11 CF Powder structural body (FormLabs SLS)",
       "Tool-steel fasteners & precision bearings throughout",
       "Blender-native programming via ARIES add-on",
     ],
@@ -56,16 +56,16 @@ const products = [
     imgBg: "#f8f8f8",
     gallery: [nomos1, nomos2, nomos3, nomos4],
     description:
-      "A two-chamber multiplicative cycloidal transmission achieving 225:1 reduction with near-zero backlash. Cycloidal discs and housing printed in Stron4000 industrial resin (FormLabs), paired with precision steel bearings — NOMOS is the backbone of every MINOS joint.",
+      "A two-chamber multiplicative cycloidal transmission achieving 225:1 reduction with near-zero backlash. Cycloidal discs and housing printed in Nylon 11 CF Powder (FormLabs SLS), paired with precision steel bearings — NOMOS is the backbone of every MINOS joint.",
     highlights: [
       { value: "225:1", label: "Gear Ratio" },
       { value: "2", label: "Cycloidal Stages" },
-      { value: "Stron4000", label: "FormLabs Resin" },
+      { value: "Nylon 11 CF", label: "FormLabs Resin" },
     ],
     specs: [
       "225:1 gear ratio — two multiplicative cycloidal stages",
       "Near-zero backlash cycloidal transmission",
-      "Stron4000 resin cycloidal discs & housing (FormLabs SLA)",
+      "Nylon 11 CF Powder cycloidal discs & housing (FormLabs SLS)",
       "Precision steel bearings & tool-steel fasteners",
       "Crossed-roller output bearing — standard hot-swap interface",
     ],
@@ -79,16 +79,16 @@ const products = [
     imgBg: "#ffffff",
     gallery: [nimios1, nimios2, nimios3],
     description:
-      "A compact two-chamber multiplicative cycloidal transmission at 100:1 reduction, printed in Stron4000 resin (FormLabs) and hybridized with precision steel bearings. Shares the same output interface as NOMOS — purpose-built for wrist and tool-mount joints.",
+      "A compact two-chamber multiplicative cycloidal transmission at 100:1 reduction, printed in Nylon 11 CF Powder (FormLabs) and hybridized with precision steel bearings. Shares the same output interface as NOMOS — purpose-built for wrist and tool-mount joints.",
     highlights: [
       { value: "100:1", label: "Gear Ratio" },
       { value: "2", label: "Cycloidal Stages" },
-      { value: "Stron4000", label: "FormLabs Resin" },
+      { value: "Nylon 11 CF", label: "FormLabs Resin" },
     ],
     specs: [
       "100:1 gear ratio — two multiplicative cycloidal stages",
       "Compact wrist-optimized form factor",
-      "Stron4000 resin body & cycloidal discs (FormLabs SLA)",
+      "Nylon 11 CF Powder body & cycloidal discs (FormLabs SLS)",
       "Precision steel bearings & tool-steel fasteners",
       "Compatible with NOMOS output interface — hot-swappable",
     ],
