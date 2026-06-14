@@ -16,10 +16,10 @@ const pillars = [
     image: explodedView,
     imageBg: "bg-[#111218]",
     description:
-      "Fully functional 6-DOF robotic arm units designed from the ground up to be 3D-printed in-house, assembled with off-the-shelf components, and customized to your production needs. From individual joint modules to complete machining cells — built to be replicated, not just purchased.",
+      "Fully functional 7-DOF robotic arm units designed from the ground up to be 3D-printed in-house, assembled with off-the-shelf components, and customized to your production needs. From individual joint modules to complete machining cells — built to be replicated, not just purchased.",
     features: [
       "Printable structural components & housings",
-      "Modular harmonic drive actuator joints",
+      "Modular cycloidal actuator joints",
       "Scalable from desktop prototype to workshop",
       "Open hardware specifications & BOM",
     ],
@@ -47,17 +47,17 @@ const pillars = [
     icon: Wrench,
     tag: "03 — Implementation",
     title: "Service",
-    subtitle: "Training & Solutions Consulting",
+    subtitle: "Automation Consulting & Integration",
     accent: "#A855F7",
     image: SERVICE_TEAM_IMG,
     imageBg: "bg-[#111218]",
     description:
-      "Technology is only useful when you can implement it. A.R.I.E.S. provides hands-on operator training, integration consulting, and ongoing support — helping small businesses deploy, run, and grow with the platform, closing the skills gap alongside the technology gap.",
+      "Technology is only useful when implemented correctly. A.R.I.E.S. offers four tiers of service — from independent CNC consulting to full turnkey automation integration — so businesses of any size can adopt advanced manufacturing at their own pace.",
     features: [
-      "Onboarding & operator certification",
-      "Custom workflow automation design",
-      "Integration consulting & site visits",
-      "Ongoing technical support & updates",
+      "CNC usage consulting & workflow audit",
+      "Implementation support & on-site setup",
+      "Operator training & certification courses",
+      "Full automation integration for your business",
     ],
   },
 ];
@@ -183,7 +183,7 @@ export function PillarsSection() {
             style={{ fontFamily: "'Space Mono', monospace" }}
             className="text-[#FF5E0E] text-xs tracking-[0.2em] uppercase"
           >
-            The Platform
+            The Solution
           </span>
         </div>
         <h2

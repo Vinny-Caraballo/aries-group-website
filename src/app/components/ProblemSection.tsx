@@ -55,7 +55,7 @@ export function ProblemSection() {
             className="text-white mb-4"
           >
             Advanced manufacturing is gated by{" "}
-            <span className="text-[#FF5E0E]">cost, complexity, and closed walls</span>
+            <span className="text-[#FF5E0E]">cost, complexity, and closed ecosystems</span>
           </h2>
           <p
             style={{ fontFamily: "'Inter', sans-serif", lineHeight: 1.7 }}
@@ -63,8 +63,8 @@ export function ProblemSection() {
           >
             Small businesses, makers, and emerging manufacturers are locked out
             of the tools that define modern production — not because the
-            technology doesn't exist, but because access has been deliberately
-            restricted by price and proprietary lock-in.
+            technology doesn't exist, but because access remains concentrated
+            behind capital barriers and proprietary lock-in.
           </p>
         </motion.div>
 

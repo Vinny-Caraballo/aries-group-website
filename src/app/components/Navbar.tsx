@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { motion, useScroll } from "motion/react";
 import { Menu, X } from "lucide-react";
+import logoWhite from "../../imports/logo_white.png";
 
 const navLinks = [
   { label: "Units", href: "#units" },
   { label: "Program", href: "#program" },
   { label: "Service", href: "#service" },
-  { label: "Mission", href: "#mission" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export function Navbar() {
@@ -38,10 +39,7 @@ export function Navbar() {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="flex items-center gap-3 group"
         >
-          <div className="w-9 h-9 rounded-sm bg-[#FF5E0E] flex items-center justify-center">
-            <span style={{ fontFamily: "'Space Mono', monospace" }} className="text-white text-xs font-bold tracking-wider">AR</span>
-          </div>
-          <span style={{ fontFamily: "'Space Grotesk', sans-serif" }} className="text-white font-semibold tracking-widest text-sm">A.R.I.E.S.</span>
+          <img src={logoWhite} alt="A.R.I.E.S." className="h-8 w-auto object-contain" />
         </button>
 
         {/* Desktop nav */}

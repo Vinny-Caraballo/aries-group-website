@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowRight, Cpu, GitBranch, Zap } from "lucide-react";
 import robotArm from "../../imports/0000_ALT.png";
+import { GeometricBackground } from "./GeometricBackground";
 
 const badges = [
   { icon: Cpu, label: "3D Printed CNC Units" },
@@ -11,15 +12,8 @@ const badges = [
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-[#0a0b10]">
-      {/* Animated grid lines */}
-      <div
-        className="absolute inset-0 opacity-[0.04]"
-        style={{
-          backgroundImage:
-            "linear-gradient(#FF5E0E 1px, transparent 1px), linear-gradient(90deg, #FF5E0E 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
-        }}
-      />
+      {/* Parametric node network + rotating joint rings */}
+      <GeometricBackground />
 
       {/* Radial glow behind arm */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[#FF5E0E]/8 rounded-full blur-3xl pointer-events-none" />
@@ -89,7 +83,7 @@ export function HeroSection() {
                 className="group flex items-center gap-2 px-7 py-3.5 bg-[#FF5E0E] hover:bg-[#e54d00] text-white transition-all duration-200 rounded-sm"
                 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600 }}
               >
-                Explore the Platform
+                Explore the Solution
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </button>
               <button
@@ -133,15 +127,9 @@ export function HeroSection() {
             transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
             className="relative flex items-center justify-center"
           >
-            {/* Outer ring glow */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-80 h-80 rounded-full border border-[#FF5E0E]/10 animate-pulse" />
-              <div className="absolute w-64 h-64 rounded-full border border-[#FF5E0E]/8" />
-            </div>
-
             <motion.img
               src={robotArm}
-              alt="A.R.I.E.S. robotic arm unit"
+              alt="MINOS — A.R.I.E.S. robotic arm"
               className="relative z-10 w-full max-w-sm lg:max-w-md drop-shadow-2xl"
               style={{ filter: "drop-shadow(0 0 40px rgba(255,94,14,0.15))" }}
               animate={{ y: [0, -12, 0] }}
@@ -156,10 +144,10 @@ export function HeroSection() {
               className="absolute bottom-4 right-4 px-4 py-2.5 rounded-sm border border-[#FF5E0E]/30 bg-[#0a0b10]/90 backdrop-blur-sm"
             >
               <div style={{ fontFamily: "'Space Mono', monospace" }} className="text-[#FF5E0E] text-xs tracking-widest uppercase">
-                A.R.I.E.S. Unit 01
+                MINOS
               </div>
               <div style={{ fontFamily: "'Inter', sans-serif" }} className="text-white/40 text-xs mt-0.5">
-                6-DOF Modular Robotic Arm
+                7-DOF Modular Robotic Arm
               </div>
             </motion.div>
           </motion.div>
